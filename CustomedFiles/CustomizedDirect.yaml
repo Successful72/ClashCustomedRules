@@ -1,1 +1,11 @@
+#自定义直连规则集
 
+
+payload:
+# 域名后缀匹配
+ - DOMAIN-SUFFIX,time.windows.com
+ - DOMAIN-SUFFIX,lanzov.com
+ - DOMAIN-SUFFIX,hao123.com
+
+# 源IP数据包匹配
+ - SRC-IP-CIDR,200.56.72.242/32,DIRECT
