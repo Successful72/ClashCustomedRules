@@ -6,6 +6,7 @@ payload:
  - DOMAIN-SUFFIX,time.windows.com
  - DOMAIN-SUFFIX,lanzov.com
  - DOMAIN-SUFFIX,hao123.com
+ - DOMAIN-SUFFIX,bgithub.xyz
 
 # 源IP数据包匹配
  - SRC-IP-CIDR,200.56.72.247/32
