@@ -7,15 +7,13 @@ payload:
  - DOMAIN-SUFFIX,lanzov.com
  - DOMAIN-SUFFIX,hao123.com
  - DOMAIN-SUFFIX,bgithub.xyz
+ - DOMAIN-SUFFIX,hohai.eu.org
 
 # 源IP数据包匹配
- - SRC-IP-CIDR,200.56.72.247/32
+ - SRC-IP-CIDR,200.56.72.247/32 # NAS
 
 # 目的地IP数据包匹配
 # 局域网网关
  - IP-CIDR,192.168.36.1/32
  - IP-CIDR,192.168.0.72/32
  - IP-CIDR,172.27.16.18/32
- 
-# VPS
- - IP-CIDR,156.246.92.92/32
